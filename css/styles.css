@@ -31,13 +31,21 @@ body{
   margin-top: 0;
 }
 
+.calendar-subhead{
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  width: 190px;
+}
+
 .Date{
   display: inline-block;
   position: relative;
   background-color: white;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 5%;
+  margin: 0 5px;
 }
 
 .Date:hover{
@@ -47,7 +55,6 @@ body{
 
 .Sunday{
   background-color: var(--calendar_green);
-  margin-left: 20px;
 }
 
 .Monday{
