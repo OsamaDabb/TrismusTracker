@@ -1,0 +1,86 @@
+/*General*/
+:root{
+  --calendar_green: green;
+  --calendar_red: #a20a0a;
+}
+
+body{
+  margin: 0;
+  background-color: #4e8d7c;
+}
+
+/*Class*/
+.banner{
+  padding-top: 20px;
+  background-color: #045762;
+}
+
+.Title{
+  display: inline;
+  margin: 0;
+  margin-left: 10px;
+  color: #f3f2da;
+}
+
+.calendar{
+  padding: 20px 40px;
+  background-color: #4e8d7c;
+}
+
+.calendar-header{
+  margin-top: 0;
+}
+
+.Date{
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.Date:hover{
+  transform: scale(1.05,1.05);
+  transform-origin: center;
+}
+
+.Sunday{
+  background-color: var(--calendar_green);
+  margin-left: 20px;
+}
+
+.Monday{
+  background-color: var(--calendar_green);
+}
+
+.Tuesday{
+  background-color: var(--calendar_green);
+}
+
+.streak{
+  text-align: center;
+}
+
+/*DateInfo*/
+.body{
+  padding: 20px;
+  font-size: 20px;
+  color: #f3f2da;
+}
+
+.button{
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  background-color: #045762;
+}
+
+.info-table{
+
+}
+
+#next{
+  padding-left: 30px;
+  padding-right: 30px;
+}
